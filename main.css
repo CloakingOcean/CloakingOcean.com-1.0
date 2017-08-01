@@ -1,0 +1,211 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	text-align:left;font-family: 'Arial Black', Gadget, sans-serif'Arial Black', Gadget, sans-serif;font-size: 30px;
+}
+
+h2 {
+	font: bold 14px Tahoma;
+}
+
+#current{
+	color:#1D3320;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	color:white;
+	text-decoration: none;
+}
+
+a:hover{
+	color:blue;
+	background-color: #00493c;
+}
+
+article p{
+	text-align: left;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+
+body{
+	width: 100%; /* Need to specify width when using flexible boxes */
+	display:-webkit-box;
+	-webkit-box-pack: center; /*how do we want the boxes inside the body to be arranged? */
+	background-color: #47E6FF;
+	/* background-image: url("background.jpg"); */-
+    background-repeat: repeat;
+}
+
+#big_wrapper{
+	max-width: 1000px;
+	margin: 20px 0px;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-flex: 1;
+}
+
+#top_header { /* Logo and Title */
+	border: 3px solid black;
+	padding: 10px;
+	color:#C40B06;
+	background-color:#ff6047;
+}
+
+#top_menu { /*Navigation */
+	border: 1px solid black;
+	background: #00B796;
+	color:white;
+}
+
+#top_menu li{
+	display:inline-block;
+	list-style: none;
+	font: bold 20px Tahoma;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: black;
+}
+
+#top_menu a{
+	color: black;
+}
+
+#main_section {
+	-webkit-box-flex: 1;
+	/*margin: 20px;
+	padding: 20px;
+	*/
+	padding: 40px;
+	background-color: #47E6FF;
+}
+
+#side_news {
+	border: 1px solid black;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+}
+
+#the_footer {
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid green;
+	background-color: #47E6FF;
+}
+
+#exitiumimage{
+	text-align: center;
+	padding: 20px;
+}
+
+#intro{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a.spyhoplink{
+	background-color: white;
+	display: block;
+	padding: 30px;
+}
+
+a.bukkitlink{
+	background-color:white;
+	display: block;
+	padding: 30px;
+}
+
+a.unitylink{
+	background-color: white;
+	display: block;
+	padding: 30px;
+}
+
+a.javalink{
+	background-color: white;
+	display: block;
+	padding: 30px;
+	padding-right: 69px;
+}
+
+#spyhop{
+	background-color: white;
+	border-style: solid;
+	text-align: center;
+	margin: 10px;
+}
+
+#bukkit{
+	background-color: white;
+	border-style: solid;
+	margin: 10px;
+	text-align: center;
+}
+
+#unity{
+	background-color: white;
+	border-style: solid;
+	text-align: center;
+	margin: 10px;
+}
+
+#java{
+	background-color: white;
+	border-style: solid;
+	text-align: center;
+	margin: 10px;
+}
+
+#one {
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+}
+
+#current{
+	background-color: #32C5AB;
+}
+
+#bukkitarticle p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#checkoutblog a{
+	color: blue;
+}
+
+#bukkitarticle a{
+	color: blue;
+}
+
+#javaarticle a{
+	color: blue;
+}
+
+#javaarticle p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#spyhoparticle a{
+	color: blue;
+}
+
+#spyhoparticle p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#unityarticle a{
+	color: blue;
+}
+
+#unityarticle p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
