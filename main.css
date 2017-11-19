@@ -161,6 +161,8 @@ a.javalink{
 	border-style: solid;
 	text-align: center;
 	margin: 10px;
+    width: 420px;
+    height: 160px;
 }
 
 #java{
