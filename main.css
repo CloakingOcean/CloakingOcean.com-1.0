@@ -130,6 +130,11 @@ a.unitylink{
 	padding: 30px;
 }
 
+#certificatesarticle img {
+    width: 100%;
+    padding: 15px;
+}
+
 a.javalink{
 	background-color: white;
 	display: block;
